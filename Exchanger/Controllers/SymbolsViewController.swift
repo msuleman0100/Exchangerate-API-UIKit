@@ -11,7 +11,6 @@ class SymbolsViewController: UIViewController {
     
     let apiHandler = APIHandler()
     var fetchedSymbols: [String] = []
-    
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
