@@ -15,8 +15,6 @@ class SymbolsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Setting the table view's data source and delegate
         tableView.dataSource = self
         tableView.delegate = self
         fetchSymbols()
